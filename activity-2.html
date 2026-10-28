@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NRI College</title>
+<style>
+body{
+    font-family:Arial;
+    background:#F5F7FF;
+    margin:0;color:#333;
+    }
+header{
+    background:#0C4BFF;
+    color:white;
+    text-align:center;
+    padding:30px;
+    font-size:28px;
+   }
+nav{
+    background:#208BFF;
+    text-align:center;
+    padding:12px;
+    }
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+    }
+.one{
+    background:white;
+    margin:15px;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    border:2px solid #E0DFFF;
+    }
+.two{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;padding:15px;
+     }
+.two div{
+    background:white;
+    width:220px;
+    padding:15px;
+    border-radius:10px;
+    border:2px solid #E0DFFF;
+    text-align:center;
+     }
+.three{
+    background:white;
+    margin:15px;
+    padding:20px;
+    border-radius:12px;
+    }
+.four{
+    background:#E0DFFF;
+    margin:15px;
+    padding:20px;
+    border-radius:40px;
+    text-align:center;
+    border:1px solid #208BFF;
+    }
+</style>
+</head>
+<body>
+<header>NRI Institute of Technology</header>
+<nav>
+    <a href="#dept">Dept</a>
+    <a href="#fac">Faculty</a>
+    <a href="#video">Video</a>
+    <a href="#adm">Admission</a>
+</nav>
+<div class="four">
+    <h2>Welcome to NRI College!</h2>
+    <p>NAAC A+, Pothavarappadu, Vijayawada</p>
+</div>
+<div class="one" id="dept">
+<h2>Departments & Courses</h2>
+</div>
+<div class="two">
+<div>
+    <h3>CSE</h3>
+    <p>180 Seats</p>
+    <p>B.Tech, M.Tech</p>
+</div>
+<div>
+    <h3>ECE</h3>
+    <p>120 Seats</p>
+    <p>B.Tech, M.Tech</p>
+</div>
+<div>
+    <h3>Mech</h3>
+    <p>60 Seats</p>
+    <p>Workshop + Labs</p>
+</div>
+</div>
+<div class="three" id="fac">
+    <h2>Faculty Profiles</h2>
+    <p>Dr. Venkat Rao - Principal</p>
+    <p>Prof. Sunil - HOD CSE</p>
+    <p>Prof. Priya - HOD ECE</p>
+</div>
+<div class="four" id="video">
+    <h2>Campus Tour Video</h2>
+<video controls width="100%" style="max-width:600px;border-radius:10px;">
+<source src="video.mp4" type="video/mp4">
+</video>
+</div>
+<div class="three" id="adm">
+    <h2>Admissions & Facilities</h2>
+<table width="100%" border="1" style="border-collapse:collapse;"><tr><th>Course</th><th>Fee</th></tr><tr><td>B.Tech</td><td>70000</td></tr><tr><td>M.Tech</td><td>50000</td></tr></table>
+<p>Facilities: Library, Labs, Hostel, Buses, Placement</p>
+</div>
+</body>
+</html>
