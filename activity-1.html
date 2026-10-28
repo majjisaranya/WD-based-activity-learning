@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CarePlus Hospital</title>
+<style>
+body{
+    font-family:Arial;
+    background:#f0f8ff;
+    margin:0;color:#343a45;
+    }
+header{
+    background:#cddfff;
+      color:#343a45;
+      text-align:center;
+      padding:25px;
+      font-size:35px;
+      }
+nav{
+    background:#e6e0ff;
+    text-align:center;
+    padding:12px;
+    border-radius:15px;
+    margin:17px;
+      }
+nav a{
+    color:#5145a0;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+     }
+.one{
+    background:#e6e0ff;
+    padding:12px;
+    border-radius:15px;
+    margin:17px;
+    text-align:center;
+     }
+.two{
+    text-align:center;
+    margin:10px;
+    }
+.card{
+    background:white;
+    width:230px;
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0 10px 10px #e0e2f5;
+    vertical-align:top;
+    }
+.card img{
+    width:100%;
+    height:140px;
+    border-radius:8px;
+     }
+.price{
+    color:#2386b6;
+    font-weight:bold;
+    }
+button{
+    background:#8c7cf6;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+    }
+.three{
+    background:white;
+    margin:20px;
+    padding:15px;
+    border-radius:10px;
+    }
+.four{
+    background:#ffe4ec;
+    margin:20px;
+    padding:15px;
+    text-align:center;
+    border-radius:40px;
+    border:1px solid pink;
+    }
+</style>
+</head>
+<body>
+<header>CarePlus Hospital - Vijayawada</header>
+<nav><a href="#dep">Departments</a><a href="#doc">Doctors</a><a href="#video">Video</a><a href="#time">Timings</a></nav>
+<div class="one"><h2>Welcome to CarePlus!</h2><p>24/7 Emergency and Best Care</p></div>
+<div class="two" id="dep">
+<div class="card"><h3>Cardiology</h3><p>Heart Care</p><p class="price">Dr. Ramesh</p></div>
+<div class="card"><h3>Neurology</h3><p>Brain Care</p><p class="price">Dr. Priya</p></div>
+<div class="card"><h3>Orthopedics</h3><p>Bone Care</p><p class="price">Dr. Anjali</p></div>
+</div>
+<div class="three" id="doc"><h2>Facilities</h2><p>ICU, Lab, Pharmacy, Ambulance</p></div>
+<div class="four" id="video"><h2>Hospital Tour Video</h2>
+<p>Local path: C:\Users\majji\Downloads\istockphoto-1253263447-640_adpp_is.mp4</p>
+</div>
+<div class="three" id="time"><h2>Visiting Hours</h2>
+    <video controls width="100%" style="max-width:600px;border-radius:10px;">
+<source src="video.mp4" type="video/mp4">
+</video>
+<table width="100%" border="1" style="border-collapse:collapse;"><tr><th>Service</th><th>Time</th></tr><tr><td>OPD</td><td>9AM-5PM</td></tr><tr><td>Emergency</td><td>24/7</td></tr></table>
+</div>
+<div class="three"><h2>Appointment Form</h2>Name: <input type="text"><br><br><button>Submit</button></div>
+</body>
+</html>
